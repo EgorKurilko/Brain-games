@@ -1,9 +1,8 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "type": "module",
   "bin": {
-  "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js"
   },
   "description": "[![Actions Status](https://github.com/EgorKurilko/fullstack-javascript-project-44/workflows/hexlet-check/badge.svg)](https://github.com/EgorKurilko/fullstack-javascript-project-44/actions)",
   "main": "index.js",
@@ -20,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/EgorKurilko/fullstack-javascript-project-44/issues"
   },
-  "homepage": "https://github.com/EgorKurilko/fullstack-javascript-project-44#readme"
+  "type": "module",
+  "homepage": "https://github.com/EgorKurilko/fullstack-javascript-project-44#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
