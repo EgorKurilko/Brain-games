@@ -1,4 +1,4 @@
-#!/home/kurilego/workspace/fullstack-javascript-project-44/bin node
+#!/usr/bin/env node
 
 "Welcome to the Brain Games!"
 
