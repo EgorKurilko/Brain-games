@@ -5,3 +5,6 @@
 
 ### The recording game "IsEven":
 [![asciicast](https://asciinema.org/a/J9K3JP2FwZtDqSPIamkKHi5TE.svg)](https://asciinema.org/a/J9K3JP2FwZtDqSPIamkKHi5TE)
+
+### The recording game "Calculator":
+[![asciicast](https://asciinema.org/a/k8MRYLdhgWV5xfarUY5lYFak4.svg)](https://asciinema.org/a/k8MRYLdhgWV5xfarUY5lYFak4)

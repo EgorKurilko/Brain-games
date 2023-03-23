@@ -5,9 +5,7 @@ let sum = 0;
 
 const getNum = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
-const toYesNo = (value) => (value ? 'yes' : 'no'); // нужно переделать
-
-// const rightAnswer = (num) => isEven(num);
+const toYesNo = (value) => (value ? 'yes' : 'no');
 
 const runEvenGame = () => {
   console.log('Welcome to the Brain Games!');
@@ -24,7 +22,7 @@ const runEvenGame = () => {
     if ((isEven(num) && userAnswer === 'no') || (!isEven(num) && userAnswer === 'yes')) {
       console.log(`'${userAnswer}' is wrong answer; Correct answer was '${toYesNo(isEven(num))}'.`);
       console.log(`Let's try again, ${userName}!`);
-      break;
+      return;
     }
     if (userAnswer === 'yes' || userAnswer === 'no') {
       console.log('Correct!');
@@ -32,9 +30,9 @@ const runEvenGame = () => {
     } else {
       console.log(`'${userAnswer}' is wrong answer; Correct answer was '${toYesNo(isEven(num))}'.`);
       console.log(`Let's try again, ${userName}!`);
-      break;
+      return;
     }
-    console.log(`Congratulations, ${userName}!`);
   }
+  console.log(`Congratulations, ${userName}!`);
 };
 export default runEvenGame;
