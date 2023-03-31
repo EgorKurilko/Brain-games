@@ -14,9 +14,7 @@ const runGame = (description, getQuestion, getRightAnswer) => {
     const rightAnswer = getRightAnswer(question); // Получаем правильный ответ (S)
     console.log(`Question: ${question}`); // Задаём вопрос (A)
     const userAnswer = readlineSync.question('Your answer: '); // Получаем ответ (A) (S) ???
-    console.log(rightAnswer);
-    console.log(userAnswer);
-    if (String(rightAnswer) !== userAnswer) { // Сравниваем ответ поьзователя с правильным 
+    if (String(rightAnswer) !== userAnswer) { // Сравниваем ответ поьзователя с правильным
       console.log(`'${userAnswer}' is wrong answer; Correct answer was '${rightAnswer}'.`);
       console.log(`Let's try again, ${userName}!`);
       return;
