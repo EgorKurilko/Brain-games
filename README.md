@@ -11,3 +11,6 @@
 
 ### The recording game "Great Common Divider":
 [![asciicast](https://asciinema.org/a/gpHTZvY7mMEV4hb356jXqEtZy.svg)](https://asciinema.org/a/gpHTZvY7mMEV4hb356jXqEtZy)
+
+### The recording game "Progression":
+[![asciicast](https://asciinema.org/a/hvIf8uvmwfeH5InygsM0DcqQ7.svg)](https://asciinema.org/a/hvIf8uvmwfeH5InygsM0DcqQ7)
