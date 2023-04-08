@@ -14,3 +14,6 @@
 
 ### The recording game "Progression":
 [![asciicast](https://asciinema.org/a/hvIf8uvmwfeH5InygsM0DcqQ7.svg)](https://asciinema.org/a/hvIf8uvmwfeH5InygsM0DcqQ7)
+
+### The recording game "IsPrime":
+[![asciicast](https://asciinema.org/a/pfxk9WdnwkbHYiLfX1SpxM9QG.svg)](https://asciinema.org/a/pfxk9WdnwkbHYiLfX1SpxM9QG)
