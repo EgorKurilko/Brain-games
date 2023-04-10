@@ -23,9 +23,6 @@ const getResult = (num1, num2, operator) => {
 };
 
 const runGameCalc = () => {
-  // const num1 = getRandomNumber(1, 100);
-  // const num2 = getRandomNumber(1, 100);
-  // const setOperator = operators[getRandomNumber(0, operators.length - 1)];
   const description = 'What is the result of the expression?';
   const getQuestion = () => {
     const num1 = getRandomNumber(1, 100);

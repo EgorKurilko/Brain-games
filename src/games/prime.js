@@ -10,7 +10,6 @@ const isPrime = (num) => {
   }
   return 'yes';
 };
-// num % i === 0 ? 'no' : 'yes'; как можно использовать?
 
 const runGameIsPrime = () => {
   const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
