@@ -3,7 +3,7 @@
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/987259e7568ffefbb859/test_coverage)](https://codeclimate.com/github/EgorKurilko/fullstack-javascript-project-44/test_coverage)
 
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://docs.github.com/assets/cb-28497/mw-1000/images/help/repository/actions-workflow-status-badge.webp)
 
 ### The recording game "IsEven":
 [![asciicast](https://asciinema.org/a/ZFAvWfFU1jpFA4Bpz4AvWyudH.svg)](https://asciinema.org/a/ZFAvWfFU1jpFA4Bpz4AvWyudH)
