@@ -22,6 +22,6 @@ const runGame = (description, getQuestion, getRightAnswer) => {
     console.log('Correct!');
     sum += 1;
   }
-  console.log(`Congratulations, ${userName}`);
+  console.log(`Congratulations, ${userName}!`);
 };
 export default runGame;
