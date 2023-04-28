@@ -3,81 +3,86 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/987259e7568ffefbb859/maintainability)](https://codeclimate.com/github/EgorKurilko/fullstack-javascript-project-44/maintainability)
 
-<h1>Brain-games</h1>
+#Brain-games#
 
-<p>Mind Games is a set of five brain—boosting games. Each game asks three questions. After three correct answers in a row, it is considered that the game is over.</p>
-<ul>Presented games:
-<li>Calculator. Arithmetic expressions that need to be calculated.</li>
-<li>Progression. Search for missing numbers in a sequence of numbers.</li>
-<li>Definition of an even number.</li>
-<li>Finding the Greatest Common Divisor.</li>
-<li>Definition of a prime number.</li>
-</ul>
+####Mind Games is a set of five brain—boosting games. Each game asks three questions. After three correct answers in a row, it is considered that the game is over.####
 
-<h2>Install</h2>
+####Presented games:####
+- Calculator. Arithmetic expressions that need to be calculated.
+- Progression. Search for missing numbers in a sequence of numbers.
+- Definition of an even number.
+- Finding the Greatest Common Divisor.
+- Definition of a prime number.
 
-<pre>
-git clone https://github.com/EgorKurilko/fullstack-javascrit-project-44.git
-cd fullstack-javascrit-project-44
-make install
-npm install
-npm link
-</pre>
 
-<ul>
-<h2>Games</h2>
+##Install##
 
-<li><h3>Brain-calc<h3></li>
-<p>It is necessary to calculate the sum, difference or composition of two numbers</p>
+> git clone https://github.com/EgorKurilko/fullstack-javascrit-project-44.git
+> cd fullstack-javascrit-project-44
+> make install
+> npm install
+> npm link
 
-<h4>Starting the game</h4>
+##Games##
 
-<pre>brain-calc</pre>
+- ###**Brain-calc**###
+####It is necessary to calculate the sum, difference or composition of two numbers####
 
-<h4>Presents</h4>
-<p><a href="https://asciinema.org/a/C0DW3FjR4y4xRgbF8sjUTfm0F" target="_blank"><img src="https://asciinema.org/a/C0DW3FjR4y4xRgbF8sjUTfm0F.svg" /></a></p>
+####**Starting the game**####
 
-<li><h3>Brain-progression<h3></li>
+> brain-calc
 
-<p>It is necessary to calculate which number is "hidden" in the arithmetic progression</p>
+####Presents####
 
-<h4>Starting the game</h4>
+[![brain-calc](https://asciinema.org/a/C0DW3FjR4y4xRgbF8sjUTfm0F.svg)](https://asciinema.org/a/C0DW3FjR4y4xRgbF8sjUTfm0F)
 
-<pre>brain-progression</pre>
+###**Brain-progression**###
 
-<h4>Presents</h4>
-<p><a href="https://asciinema.org/a/hvIf8uvmwfeH5InygsM0DcqQ7" target="_blank"><img src="https://asciinema.org/a/hvIf8uvmwfeH5InygsM0DcqQ7.svg" /></a></p>
+####It is necessary to calculate which number is "hidden" in the arithmetic progression####
 
-<li><h3>Brain-even<h3></li>
+####**Starting the game**####
 
-<p>It is necessary to determine the parity of the number</p>
+> brain-progression
 
-<h4>Starting the game</h4>
+####Presents####
 
-<pre>brain-even</pre>
+[![brain-progression](https://asciinema.org/a/hvIf8uvmwfeH5InygsM0DcqQ7.svg)](https://asciinema.org/a/hvIf8uvmwfeH5InygsM0DcqQ7)
 
-<h4>Presents</h4>
+###**Brain-even**###
+
+####It is necessary to determine the parity of the number####
+
+####**Starting the game**####
+
+> brain-even
+
+####Presents####
 <p><a href="https://asciinema.org/a/ZFAvWfFU1jpFA4Bpz4AvWyudH" target="_blank"><img src="https://asciinema.org/a/ZFAvWfFU1jpFA4Bpz4AvWyudH.svg" /></a></p>
 
-<li><h3>Brain-gcd<h3></li>
+[![brain-even](https://asciinema.org/a/ZFAvWfFU1jpFA4Bpz4AvWyudH.svg)](https://asciinema.org/a/ZFAvWfFU1jpFA4Bpz4AvWyudH)
 
-<p>It is necessary to determine the greatest common divisor of two numbers</p>
+###**Brain-gcd**###
 
-<h4>Starting the game</h4>
+####It is necessary to determine the greatest common divisor of two numbers####
 
-<pre>brain-gcd</pre>
+####**Starting the game**####
 
-<h4>Presents</h4>
-<p><a href="https://asciinema.org/a/gpHTZvY7mMEV4hb356jXqEtZy" target="_blank"><img src="https://asciinema.org/a/gpHTZvY7mMEV4hb356jXqEtZy.svg" /></a></p>
+> brain-gcd
 
-<li><h3>Brain-prime<h3></li>
+####Presents####
 
-<p>It is necessary to determine whether the number is prime</p>
+[![brain-gcd](https://asciinema.org/a/gpHTZvY7mMEV4hb356jXqEtZy.svg)](https://asciinema.org/a/gpHTZvY7mMEV4hb356jXqEtZy)
 
-<h4>Starting the game</h4>
+###**Brain-prime**###
 
-<pre>brain-prime</pre>
+####It is necessary to determine whether the number is prime####
 
-<h4>Presents</h4>
-<p><a href="https://asciinema.org/a/pfxk9WdnwkbHYiLfX1SpxM9QG" target="_blank"><img src="https://asciinema.org/a/pfxk9WdnwkbHYiLfX1SpxM9QG.svg" /></a></p>
-</ul>
+####Starting the game####
+
+####**Starting the game**####
+
+> brain-prime
+
+####Presents####
+
+[![brain-prime](https://asciinema.org/a/pfxk9WdnwkbHYiLfX1SpxM9QG.svg)](https://asciinema.org/a/pfxk9WdnwkbHYiLfX1SpxM9QG)
