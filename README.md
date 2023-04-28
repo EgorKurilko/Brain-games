@@ -5,7 +5,7 @@
 
 # Brain-games
 
-#### Mind Games is a set of five brain—boosting games. Each game asks three questions. After three correct answers in a row, it is considered that the game is over.
+### Mind Games is a set of five brain—boosting games. Each game asks three questions. After three correct answers in a row, it is considered that the game is over.
 
 #### Presented games:
 - Calculator. Arithmetic expressions that need to be calculated.
@@ -26,9 +26,9 @@ npm link
 ## Games
 
 ### **Brain-calc**
-#### It is necessary to calculate the sum, difference or composition of two numbers
+> It is necessary to calculate the sum, difference or composition of two numbers
 
-#### **Starting the game**
+#### Starting the game
 
 `brain-calc`
 
@@ -39,9 +39,9 @@ npm link
 
 ### **Brain-progression**
 
-#### It is necessary to calculate which number is "hidden" in the arithmetic progression.
+> It is necessary to calculate which number is "hidden" in the arithmetic progression.
 
-#### **Starting the game**
+#### Starting the game
 
 `brain-progression`
 
@@ -52,9 +52,9 @@ npm link
 
 ### **Brain-even**
 
-#### It is necessary to determine the parity of the number.
+> It is necessary to determine the parity of the number.
 
-#### **Starting the game**
+#### Starting the game:
 
 `brain-even`
 
@@ -65,9 +65,9 @@ npm link
 
 ### **Brain-gcd**
 
-#### It is necessary to determine the greatest common divisor of two numbers.
+> It is necessary to determine the greatest common divisor of two numbers.
 
-#### **Starting the game**
+#### Starting the game:
 
 `brain-gcd`
 
@@ -76,13 +76,11 @@ npm link
 [![brain-gcd](https://asciinema.org/a/gpHTZvY7mMEV4hb356jXqEtZy.svg)](https://asciinema.org/a/gpHTZvY7mMEV4hb356jXqEtZy)
 
 
-### **Brain-prime**
+### Brain-prime
 
-#### It is necessary to determine whether the number is prime.
+> It is necessary to determine whether the number is prime.
 
-#### Starting the game
-
-#### **Starting the game**
+#### Starting the game:
 
 `brain-prime`
 
