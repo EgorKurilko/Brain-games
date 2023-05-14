@@ -8,9 +8,8 @@ const runGame = (description, getQuestion, getRightAnswer) => {
   console.log(`Hello, ${userName}!`);
   console.log(description);
 
-  let count = 0;
   const maxNumOfRounds = 3;
-  while (count !== maxNumOfRounds) {
+  for (let count = 0; count < maxNumOfRounds; count += 1) {
     const question = getQuestion();
     const rightAnswer = getRightAnswer(question);
     console.log(`Question: ${question}`);
@@ -21,7 +20,6 @@ const runGame = (description, getQuestion, getRightAnswer) => {
       return;
     }
     console.log('Correct!');
-    count += 1;
   }
   console.log(`Congratulations, ${userName}!`);
 };
