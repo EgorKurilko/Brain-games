@@ -25,7 +25,7 @@ const getQuestion = () => {
 
 const getRightAnswer = (question) => {
   const [num1, num2] = question.split(' ');
-  return getGcd(num1, num2);
+  return getGcd(Number(num1), Number(num2));
 };
 
 const runGameGCD = () => runGame(description, getQuestion, getRightAnswer);
