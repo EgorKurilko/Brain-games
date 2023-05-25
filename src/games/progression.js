@@ -17,7 +17,7 @@ const getQuestionAnswer = () => {
   const firstNum = getRandomNumber(1, 100);
   const step = getRandomNumber(1, 10);
   const size = getRandomNumber(5, 10);
-  const missingIndex = getRandomNumber(0, size);
+  const missingIndex = getRandomNumber(0, size - 1);
   const progression = getProgression(firstNum, size, step);
   const answer = progression[missingIndex];
   progression[missingIndex] = '..';
