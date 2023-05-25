@@ -6,7 +6,7 @@ const description = 'What is the result of the expression?';
 
 const operators = ['+', '-', '*'];
 
-const getExpression = (num1, num2, operator) => {
+const makeExpression = (num1, num2, operator) => {
   let result;
   switch (operator) {
     case '+':
@@ -24,18 +24,15 @@ const getExpression = (num1, num2, operator) => {
   return result;
 };
 
-const getQuestion = () => {
+const getQuestionAnswer = () => {
   const num1 = getRandomNumber(1, 100);
   const num2 = getRandomNumber(1, 100);
   const operator = operators[getRandomNumber(0, operators.length - 1)];
-  return `${num1} ${operator} ${num2}`;
+  const question = `${num1} ${operator} ${num2}`;
+  const answer = makeExpression(num1, num2, operator);
+  return [question, answer];
 };
 
-const getRightAnswer = (question) => {
-  const [num1, operator, num2] = question.split(' ');
-  return getExpression(Number(num1), Number(num2), operator);
-};
-
-const runGameCalc = () => runGame(description, getQuestion, getRightAnswer);
+const runGameCalc = () => runGame(description, getQuestionAnswer);
 
 export default runGameCalc;

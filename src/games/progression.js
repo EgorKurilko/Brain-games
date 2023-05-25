@@ -13,45 +13,19 @@ const getProgression = (firstNum, size, step) => {
   return progression;
 };
 
-const getStep = (arr) => {
-  let step = 0;
-  if (Number.isNaN(arr[2])) {
-    step = arr[1] - arr[0];
-  } else if (Number.isNaN(arr[0])) {
-    step = arr[2] - arr[1];
-  } else {
-    step = (arr[2] - arr[0]) / 2;
-  }
-  return step;
-};
-
-const getQuestion = () => {
+const getQuestionAnswer = () => {
   const firstNum = getRandomNumber(1, 100);
   const step = getRandomNumber(1, 10);
   const size = getRandomNumber(5, 10);
   const missingIndex = getRandomNumber(0, size);
   const progression = getProgression(firstNum, size, step);
+  const answer = progression[missingIndex];
   progression[missingIndex] = '..';
-  return progression.join(' ');
+  const question = progression.join(' ');
+
+  return [question, answer];
 };
 
-const getRightAnswer = (question) => {
-  const progression = question.split(' ').map(Number);
-  const step = getStep(progression);
-  let answer = [];
-  for (let i = 0; i < progression.length; i += 1) {
-    if (Number.isNaN(progression[0])) {
-      answer = progression[1] + (step * (i - 1));
-      return answer;
-    }
-    if (Number.isNaN(progression[i])) {
-      answer = progression[0] + (step * i);
-      return answer;
-    }
-  }
-  return answer;
-};
-
-const runGameProgression = () => runGame(description, getQuestion, getRightAnswer);
+const runGameProgression = () => runGame(description, getQuestionAnswer);
 
 export default runGameProgression;

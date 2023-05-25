@@ -17,17 +17,14 @@ const getGcd = (c, d) => {
   return (a + b);
 };
 
-const getQuestion = () => {
+const getQuestionAnswer = () => {
   const num1 = getRandomNumber(1, 100);
   const num2 = getRandomNumber(1, 100);
-  return `${num1} ${num2}`;
+  const question = `${num1} ${num2}`;
+  const answer = getGcd(num1, num2);
+  return [question, answer];
 };
 
-const getRightAnswer = (question) => {
-  const [num1, num2] = question.split(' ');
-  return getGcd(Number(num1), Number(num2));
-};
-
-const runGameGCD = () => runGame(description, getQuestion, getRightAnswer);
+const runGameGCD = () => runGame(description, getQuestionAnswer);
 
 export default runGameGCD;

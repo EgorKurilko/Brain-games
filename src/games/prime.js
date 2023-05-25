@@ -2,9 +2,9 @@ import runGame from '../index.js';
 
 import getRandomNumber from '../getRandom.js';
 
-const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+import toYesNo from '../answer.js';
 
-const toYesNo = (value) => (value ? 'yes' : 'no');
+const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrime = (num) => {
   for (let i = 2; i <= (num / 2); i += 1) {
@@ -15,13 +15,13 @@ const isPrime = (num) => {
   return true;
 };
 
-const getQuestion = () => {
+const getQuestionAnsw = () => {
   const num = getRandomNumber(1, 100);
-  return `${num}`;
+  const question = `${num}`;
+  const answer = toYesNo(isPrime(num));
+  return [question, answer];
 };
 
-const getRightAnswer = (question) => toYesNo(isPrime(question));
-
-const runGameIsPrime = () => runGame(description, getQuestion, getRightAnswer);
+const runGameIsPrime = () => runGame(description, getQuestionAnsw);
 
 export default runGameIsPrime;
