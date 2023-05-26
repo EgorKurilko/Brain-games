@@ -6,7 +6,7 @@ const description = 'What is the result of the expression?';
 
 const operators = ['+', '-', '*'];
 
-const calcxpression = (num1, num2, operator) => {
+const calcExpression = (num1, num2, operator) => {
   let result;
   switch (operator) {
     case '+':
@@ -29,7 +29,7 @@ const getQuestionAnswer = () => {
   const num2 = getRandomNumber(1, 100);
   const operator = operators[getRandomNumber(0, operators.length - 1)];
   const question = `${num1} ${operator} ${num2}`;
-  const answer = calcxpression(num1, num2, operator);
+  const answer = calcExpression(num1, num2, operator);
   return [question, answer];
 };
 
