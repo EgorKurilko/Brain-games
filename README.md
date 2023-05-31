@@ -1,9 +1,6 @@
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/EgorKurilko/fullstack-javascript-project-44/workflows/hexlet-check/badge.svg)](https://github.com/EgorKurilko/fullstack-javascript-project-44/actions)
-
-[![Maintainability](https://api.codeclimate.com/v1/badges/987259e7568ffefbb859/maintainability)](https://codeclimate.com/github/EgorKurilko/fullstack-javascript-project-44/maintainability)
-
 # Brain-games
+[![Actions Status](https://github.com/EgorKurilko/fullstack-javascript-project-44/workflows/hexlet-check/badge.svg)](https://github.com/EgorKurilko/fullstack-javascript-project-44/actions)
+[![Maintainability](https://api.codeclimate.com/v1/badges/987259e7568ffefbb859/maintainability)](https://codeclimate.com/github/EgorKurilko/fullstack-javascript-project-44/maintainability)
 
 ### Mind Games is a set of five brain—boosting games. Each game asks three questions. After three correct answers in a row, it is considered that the game is over.
 
