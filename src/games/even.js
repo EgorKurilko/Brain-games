@@ -1,12 +1,10 @@
 import runGame from '../index.js';
 
-import getRandomNumber from '../getRandom.js';
-
-import toYesNo from '../toYesNo.js';
-
-import isEven from '../isEven.js';
+import { toYesNo, getRandomNumber } from '../utils.js';
 
 const description = 'Answer "yes" if the number is even, otherwise answer "no".';
+
+const isEven = (num) => num % 2 === 0;
 
 const getQuestionAnswer = () => {
   const num = getRandomNumber(1, 100);
