@@ -19,7 +19,7 @@ const calcExpression = (num1, num2, operator) => {
       result = num1 - num2;
       break;
     default:
-      console.log('Этого не произойдёт!');
+      throw new Error(`Unknown order state: '${operator}'!`);
   }
   return result;
 };

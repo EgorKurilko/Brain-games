@@ -2,7 +2,7 @@ import runGame from '../index.js';
 
 import getRandomNumber from '../getRandom.js';
 
-import toYesNo from '../answer.js';
+import toYesNo from '../toYesNo.js';
 
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
